@@ -8,5 +8,9 @@ namespace opengl_ui
 {
     class MainClass
     {
+        public static void Main(String[] args)
+        {
+
+        }
     }
 }
