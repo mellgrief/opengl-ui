@@ -8,5 +8,7 @@ namespace opengl_ui.render.element
 {
     abstract class Element
     {
+        public abstract void onUpdate();
+        public abstract void onRender();
     }
 }

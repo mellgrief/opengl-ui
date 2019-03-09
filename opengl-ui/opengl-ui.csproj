@@ -38,9 +38,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainClass.cs" />
+    <Compile Include="render\element\Button.cs" />
     <Compile Include="render\element\Element.cs" />
     <Compile Include="render\impl\IScene.cs" />
     <Compile Include="render\RenderEngine.cs" />
+    <Compile Include="render\scenes\MainScene.cs" />
+    <Compile Include="utils\ColorUtils.cs" />
+    <Compile Include="utils\EnumColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="OpenTK, Version=3.0.1.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
